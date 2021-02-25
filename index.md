@@ -363,6 +363,9 @@ of code below the Schedule `<h2>` header below with
 {% include dc/schedule.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
+{% elsif site.carpentry == "incubator" %}
+{% include incubator/schedule.html %}
+
 {% endif %}
 
 <hr/>
